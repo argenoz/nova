@@ -19,3 +19,9 @@ body
 		position:relative;
 		top:100px;
 	}
+
+.baza
+	{
+		user-select:none;
+		
+	}
