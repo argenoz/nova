@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Сравнение</title>
+
+  <!-- Halfmoon CSS only -->
+  <link
+      href="CSS/css/Halfmoon.min.css"
+      rel="stylesheet"
+    /><style>
+    /* Минимальная настройка размера клеток для табличного вида */
+    .table-grid .card {
+      min-height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+	.strochkaaw
+		{
+		display: grid;
+		grid-template-columns: 33% 33% 33%;
+		grid-template-rows:100%;
+		}
+  </style>
+</head>
+<body class="dark-mode with-custom-properties">
+
+  <header class="sticky-top navbar">
+    <div class="navbar-content">
+      <a class="btn btn-link text-decoration-none" href="https://avatars.githubusercontent.com/u/162570451?v=4">Лого</a>
+    </div>
+  </header>
+
+  <main class="container mt-20 mb-20">
+    <h1 class="mb-10">Сравнение</h1>
+
+    <!-- 2x2 сетка: используем row + col-6 (две колонки) и две строки -->
+    <div class="table-grid">
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <strong><center>VPS</center></strong>
+              <div class="text-muted"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <strong>Облако</strong>
+              <div class="text-muted"></div>
+            </div>
+          </div>
+        </div>
+	</div>
+
+      <div class="row mt-10">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <strong></strong>
+              <div class="text-muted">Один физический сервер делится на несколько виртуальных машин</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <strong></strong>
+              <div class="text-muted">Распределённая инфраструктура с несколькими серверами и центрами данных</div>
+            </div>
+          </div>
+        </div>
+      </div>
+	  <div class="row mt-10">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <strong></strong>
+              <div class="text-muted">Требует навыков администрирования; вы управляете ОС и приложениями</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <strong></strong>
+              <div class="text-muted">Может быть управляемым или полностью автоматизированным</div>
+            </div>
+          </div>
+        </div>
+      </div>
+	  <div class="row mt-10">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <strong></strong>
+              <div class="text-muted">Стабильность в работе.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <strong></strong>
+              <div class="text-muted">Зависит от общей нагрузки на сервера облака.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+	  <div class="row mt-10">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <strong></strong>
+              <div class="text-muted">Может замедлиться при превышении выделенных ресурсов</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <strong></strong>
+              <div class="text-muted">Автоматически масштабируется без потери производительности</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container pb-20 pt-10 text-center text-muted">
+    © argenoz 2026 
+  </footer>
+
+  <!-- Halfmoon JS (требуется для некоторых компонентов) -->
+  <script src="CSS/css/Halfmoon.min.js"></script>
+  <center>
+  <a href="./">Перейти назад</a>
+  </center>
+</body>
+</html>
