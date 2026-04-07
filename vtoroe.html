@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио - Мой Сайт</title>
+    <!-- Halfmoon CSS -->
+    <link rel="stylesheet" href="CSS/css/halfmoon.min.css">
+	<link rel="stylesheet" href="CSS/css/css_2.txt">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar" style="background-color: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+        <div class="navbar-content">
+            <div class="navbar-brand">
+                <a href="index.html" style="font-size: 20px; font-weight: bold; color: #667eea; text-decoration: none;">Мой Сайт</a>
+            </div>
+            
+            <!-- Десктопное меню -->
+            <ul class="navbar-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+
+            <!-- Бургер-кнопка -->
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <!-- Мобильное меню -->
+        <ul class="mobile-menu" id="mobileMenu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <!-- Заголовок страницы -->
+    <section style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 80px 20px; text-align: center;">
+        <div class="container">
+            <h1>Мое Портфолио</h1>
+            <p style="font-size: 18px; margin-top: 20px;">Примеры моих работ и проектов</p>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section id="portfolio" class="container" style="padding: 80px 20px;">
+        <h2 class="section-title">Проекты</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card portfolio-item">
+                    <div class="portfolio-image">Проект 1</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Веб-приложение для управления задачами</h5>
+                        <p class="card-text">Полнофункциональное приложение на React с базой данных и аутентификацией пользователей.</p>
+                        <button class="btn btn-primary btn-sm">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card portfolio-item">
+                    <div class="portfolio-image">Проект 2</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Интернет-магазин электроники</h5>
+                        <p class="card-text">E-commerce платформа с корзиной, оплатой и системой управления товарами.</p>
+                        <button class="btn btn-primary btn-sm">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card portfolio-item">
+                    <div class="portfolio-image">Проект 3</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Социальная сеть для путешественников</h5>
+                        <p class="card-text">Платформа для обмена опытом путешествий с картами, рейтингами и комментариями.</p>
+                        <button class="btn btn-primary btn-sm">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 40px;">
+            <div class="col-md-4">
+                <div class="card portfolio-item">
+                    <div class="portfolio-image">Проект 4</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Приложение для фитнеса</h5>
+                        <p class="card-text">Мобильное приложение для отслеживания тренировок и подсчета калорий.</p>
+                        <button class="btn btn-primary btn-sm">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card portfolio-item">
+                    <div class="portfolio-image">Проект 5</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Система управления проектами</h5>
+                        <p class="card-text">Инструмент для командной работы с доской Kanban и отслеживанием времени.</p>
+                        <button class="btn btn-primary btn-sm">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card portfolio-item">
+                    <div class="portfolio-image">Проект 6</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Блог с CMS</h5>
+                        <p class="card-text">Персональный блог с редактором контента и системой комментариев.</p>
+                        <button class="btn btn-primary btn-sm">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" style="background-color: #f8f9fa; padding: 80px 20px;">
+        <div class="container">
+            <h2 class="section-title">Мои Навыки</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body" style="text-align: center;">
+                            <h5 class="card-title">Frontend</h5>
+                            <p class="card-text">HTML, CSS, JavaScript, React, Vue.js</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body" style="text-align: center;">
+                            <h5 class="card-title">Backend</h5>
+                            <p class="card-text">Node.js, Python, PHP, SQL</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body" style="text-align: center;">
+                            <h5 class="card-title">Инструменты</h5>
+                            <p class="card-text">Git, Docker, Webpack, REST API</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body" style="text-align: center;">
+                            <h5 class="card-title">Дизайн</h5>
+                            <p class="card-text">UI/UX, Figma, Responsive Design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="container" style="padding: 80px 20px;">
+        <h2 class="section-title">Свяжитесь со мной</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" class="form-control" id="name" placeholder="Введите ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Введите ваш email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Напишите ваше сообщение"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div style="padding: 20px;">
+                    <h4>Мои контакты:</h4>
+                    <p><strong>Email:</strong> info@mysite.com</p>
+                    <p><strong>Телефон:</strong> +7 (999) 123-45-67</p>
+                    <p><strong>Адрес:</strong> г. Москва, ул. Примерная, д. 123</p>
+                    <p style="margin-top: 30px;">
+                        <a href="#" style="margin-right: 15px; text-decoration: none; color: #667eea;">GitHub</a>
+                        <a href="#" style="margin-right: 15px; text-decoration: none; color: #667eea;">LinkedIn</a>
+                        <a href="#" style="text-decoration: none; color: #667eea;">Twitter</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <p>&copy; 2026 Мой Сайт. Все права защищены.</p>
+        <p>Создано с использованием Halfmoon CSS</p>
+    </footer>
+	<script src="CSS/css/halfmoon.min.js"></script>
+    
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        // Открытие/закрытие меню при клике на бургер
+        hamburger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+
+        // Закрытие меню при клике на пункт меню
+        const menuLinks = mobileMenu.querySelectorAll('a');
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+        // Закрытие меню при клике вне его
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.navbar')) {
+                mobileMenu.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
