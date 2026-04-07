@@ -125,6 +125,6 @@ body
    }
 
 @font-face {
-    font-family: BCS; /* Гарнитура шрифта */
-    src: url(fonts/DancingScript.ttf); /* Путь к файлу со шрифтом */
+    font-family: BilboB1; /* Гарнитура шрифта */
+    src: url(fonts/bilbo/TOLKIENCYR.ttf); /* Путь к файлу со шрифтом */
    }
