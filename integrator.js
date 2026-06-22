@@ -27,9 +27,15 @@ function vyzov()
 		cx = document.getElementById('CX').value;
 		cy = document.getElementById('CY').value;
 		funka_ = new Function('x','y',"{ return "+document.getElementById('funka').value+";}");
-		let v = w.exports.integrate(ax,ay,bx,by,cx,cy);
-		v = String(v);
-		document.getElementById("resultat").innerText=v;
+		//let v = w.exports.integrate(ax,ay,bx,by,cx,cy);
+		//v = String(v);
+		let e = w.exports;
+		e.set_points(ax,ay,bx,by,cx,cy);
+		e.set_n(100,100);
+		e.integrate_p();
+		e.integrate_r();
+		document.getElementById("resultat_p").innerText=e.get_Sp();
+		document.getElementById("resultat_r").innerText=e.get_Sr();
 		knopka=false;
 	}
 
